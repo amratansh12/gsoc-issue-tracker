@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Raleway } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
-const font = Raleway({ subsets: ["latin"] });
+const font = Space_Grotesk({ 
+  subsets: ["latin"],
+  weight: ["400", "500", "600"]
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
