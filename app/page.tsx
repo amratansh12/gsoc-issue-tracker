@@ -3,7 +3,7 @@ import { Search } from "./_components/search";
 import { Orgs } from "./_components/orgs";
 import { SearchContextProvider } from "@/contexts/searchContext";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="flex flex-col">
       <SearchContextProvider>
@@ -13,4 +13,6 @@ export default function Home() {
       </SearchContextProvider>
     </div>
   );
-}
+};
+
+export default Home;
