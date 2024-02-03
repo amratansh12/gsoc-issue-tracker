@@ -8,8 +8,8 @@ const font = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "GSOC Orgs",
-  description: "A well curated detailed description about the organisations participating in the GSOC",
+  title: 'Google Summer of Code Organizations | Your App Name',
+  description: 'Discover a diverse array of organizations participating in Google Summer of Code (GSoC) through our platform. Explore detailed project descriptions, goals, and exciting opportunities offered by each organization. Empower your coding journey with valuable insights into GSoC initiatives, all in one place.',
 };
 
 export default function RootLayout({
